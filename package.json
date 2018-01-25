@@ -1,0 +1,39 @@
+{
+  "name": "jquery-parse-element",
+  "version": "1.0.0",
+  "description": "jQuery Plugin for parse an DOM element and convert it to an Object serialized.",
+  "main": "dist/jquery-parse-element.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rich-97/jquery-parse-element.git"
+  },
+  "keywords": [
+    "JSON",
+    "Object",
+    "Parse",
+    "DOM"
+  ],
+  "author": "Ricardo Moreno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rich-97/jquery-parse-element/issues"
+  },
+  "homepage": "https://github.com/rich-97/jquery-parse-element#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-dest": "^0.2.3",
+    "gulp-uglyfly": "^1.4.2",
+    "jquery": "^3.2.1",
+    "mocha": "^4.1.0"
+  }
+}

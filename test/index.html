@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link href="../node_modules/mocha/mocha.css" rel="stylesheet"/>
+  <style>
+    #foo, .bar {
+      display: none
+    }
+  </style>
+</head>
+<body>
+  <div id="foo">The content</div>
+  <div>
+    <span class="bar">bar</span>
+    <span class="bar">bar</span>
+    <span class="bar">bar</span>
+    <span class="bar">bar</span>
+  </div>
+  <div id="mocha"></div>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../dist/jquery-parse-element.min.js"></script>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/chai/chai.js"></script>
+
+  <script>mocha.setup('bdd');</script>
+  <script src="tests.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>
